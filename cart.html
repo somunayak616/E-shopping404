@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/css/ofline.css">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+      a{
+        text-decoration: none;
+        color:white;
+        
+      }
+      .valInput{
+        text-align: center;
+      }
+      .SvalInput{
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-4 p-3"><!--Header section start or 1st row start -->
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">E-shoipingps402</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Log out</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Register</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Log in </a>
+                      </li>
+                    </li>
+                  </div>  
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+            
+        </div>
+    </div><!--Header section end or 1st row end -->
+
+
+    <div class="row mt-4"><!--main section start or 1st row start -->
+        <div class="col-md-9"><!--user detail&product detail start-->
+            <div class=" row mt-2 shadow p-3">
+                <h5>Customer detail</h5><hr>
+                <p><strong>Customer name:</strong>Anonymous Customer</p>
+                <p><strong>Customer Emaile"</strong>Anonymous@gmail.com</p>
+            </div>
+        
+        
+        <div class="row mt-3 shadow"><!--product detail start-->
+            <div class="col-md-6 mt-5">
+                <img src="https://sp.yimg.com/ib/th?id=OPAC.o%2b7Wivmr9gjGcw474C474&o=5&pid=21.1&w=&h="alt=".." height="200px">
+            </div><!--image section-->
+            <div class="col-md-6 mt-5">
+                <p><strong>product name:</strong> Nike</p>
+                <p><strong>Category:</strong> Shoes</p>
+                <p><strong>product Detail:</strong> Sport shoes</p>
+                <p><strong>price</strong> RS.8000</p>
+                <p>
+                    <strong>Quantity</strong>
+                    <a href="#"><button class="btn btn-danger btnPlus">+</button></a>
+                    <input class="valInput"type="text"value="1"style="width:30px;">
+                    <a href="#"><button class="btn btn-danger btnMinus">-</button></a>
+                </p>
+                <p>
+                    <a href="#"><button class="btn btn-danger">Remove</button></a>
+                </p>
+            </div><!--detail section-->
+        </div><!--product 1  detail end-->
+        <div class="row mt-3 shadow"><!--product detail start-->
+            <div class="col-md-6 mt-5">
+                <img src="https://sp.yimg.com/ib/th?id=OPAC.o%2b7Wivmr9gjGcw474C474&o=5&pid=21.1&w=&h="alt=".." height="200px">
+            </div><!--image section-->
+            <div class="col-md-6 mt-5">
+                <p><strong>product name:</strong> Nike</p>
+                <p><strong>Category:</strong> Shoes</p>
+                <p><strong>product Detail:</strong> Sport shoes</p>
+                <p><strong>price</strong> RS.8000</p>
+                <p>
+                    <strong>Quantity</strong>
+                    <a href="#"><button class="btn btn-danger SbtnPlus">+</button></a>
+                    <input class="SvalInput" type="text"value="1"style="width:30px;">
+                    <a href="#"><button class="btn btn-danger SbtnMinus">-</button></a>
+                </p>
+                <p>
+                    <a href="#"><button class="btn btn-danger">Remove</button></a>
+                </p>
+            </div><!--detail section-->
+        </div><!--product detail 2 end-->
+    </div><!--user detail&product detail  end-->
+
+        <div class="col-md-3 mt-2"><!--price detail start-->
+            <div class="p-3 shadow">
+                <h5>price Detail</h5>
+                <p><strong>price (2 items):</strong>rs:16000</p>
+                <p><strong>total price</strong>16000</p>
+                <a href="placeorder.html"><button class="btn btn-danger">Place Order</button></a>
+            </div>
+        </div><!--price detail end-->
+    </div><!--main section end or 1st row end -->
+
+
+
+    <div class="row mt-4 bg-secondary text-white"><!--Footer section start or 3nd row start -->
+        <div class="col-md-4 p-4">
+          <h5>address</h5><hr>
+          22-B,1st Floor,<br>
+          Rainbow  Plaza<br>
+          Shivar chowk,pimple saudager,<br>
+          Pune 411027
+        </div>
+        <div class="col-md-4 p-4">
+          <h5>Quick Links</h5><hr>
+          <a href="index.html" style="text-decoration: none;">Home</a><br>
+          <a href="#">About</a><br>
+          <a href="#">Contact</a>
+        </div>
+        <div class="col-md-4 p-4">
+          <h5>Social Media icons</h5><hr>
+          <a href=""><h4><i class="bi bi-linkedin"></i></h4></a>
+          <a href=""><h4><i class="bi bi-facebook"></i></h4></a>
+          <a href=""><h4><i class="bi bi-instagram"></i></h4></a>
+          <a href=""><h4><i class="bi bi-twitter"></i></h4></a>
+        </div>
+      </div><!--Footer section end or 3nd row end -->
+  
+      <script stc="static/js/bootstrap.min.js"></script>
+      <script src="static/js/popper.js"></script>
+      <script>
+        let a=0;
+        const plus=document.querySelector(".btnPlus");
+        plus.addEventListener("click",()=>{
+            a++;
+            const clas=document.querySelector(".valInput");
+            // const val=clas.getAttribute("value");
+            clas.setAttribute("value",a);
+        });
+
+        const minus=document.querySelector(".btnMinus");
+        minus.addEventListener("click",()=>{
+            a--;
+            const clas=document.querySelector(".valInput");
+            // const val=clas.getAttribute("value");
+            clas.setAttribute("value",a);
+        });
+
+
+        let b=0;
+        const Splus=document.querySelector(".SbtnPlus");
+        Splus.addEventListener("click",()=>{
+            b++;
+            const Sclas=document.querySelector(".SvalInput");
+            // const val=clas.getAttribute("value");
+            Sclas.setAttribute("value",b);
+        });
+
+        const Sminus=document.querySelector(".SbtnMinus");
+        Sminus.addEventListener("click",()=>{
+            b--;
+            const Sclas=document.querySelector(".SvalInput");
+            // const val=clas.getAttribute("value");
+            Sclas.setAttribute("value",b);
+        });
+      </script>
+  </body>
+  </html>

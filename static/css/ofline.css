@@ -1,0 +1,10 @@
+.box{
+    height: 200px;
+    /*width: 200px;*/
+    background-color: red;
+    border-radius: 15%;
+    width:0.5rem;
+}
+a{
+    text-decoration: none;
+}
